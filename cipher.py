@@ -19,7 +19,7 @@ class Cipher:
 
         textCrypt="".join(text_temp)
         self.cipherText = textCrypt
-        print self.cipherText
+        print "your cipher text : "+self.cipherText
 
     def generateAlphabet(self):
         i=0
@@ -39,7 +39,7 @@ class Cipher:
                 cc = self.alphabetCipher.index(e)
                 text_temp.append(self.alphabet[cc])
             textDecrypt = "".join(text_temp)
-            print textDecrypt
+            print "Your text is : "+textDecrypt
             
 
         else:
